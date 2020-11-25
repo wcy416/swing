@@ -17,7 +17,7 @@ public class Shubiao {
                 super.keyPressed(e);
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     if (textArea_A.getText().equals("我是谁")){
-                        textArea_B.setText("王彩艳");
+                        textArea_B.setText("王彩艳\n");
                     }
                     else {
                         textArea_B.append("错误!\n");
