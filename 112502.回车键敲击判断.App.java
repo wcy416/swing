@@ -20,7 +20,7 @@ public class Shubiao {
                         textArea_B.setText("王彩艳");
                     }
                     else {
-                        textArea_B.setText("错误!\n");
+                        textArea_B.append("错误!\n");
                     }
                 }
                 if (e.getKeyCode() == KeyEvent.VK_DOWN) {
